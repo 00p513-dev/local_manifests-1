@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- device tree with erfans kernel, thx -->
+	<project path="device/motorola/river"
+		name="LineageOS/android_device_motorola_river"
+		revision="lineage-16.0" />
+	<project path="device/motorola/sdm632-common"
+		name="zinstack625/android_device_motorola_sdm632-common"
+		revision="hybris-16.0" />
+	<project path="kernel/motorola/sdm632"
+		name="zinstack625/android_kernel_motorola_sdm632"
+		revision="hybris-16.0" />
+	<project path="vendor/motorola"
+		name="TheMuppets/proprietary_vendor_motorola"
+		revision="lineage-16.0" />
+
+
+	<!-- some stuff hybris-16 hal won't compile without really idk -->
+	<project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
+	<project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
+	<project path="external/xz-embedded" name="platform/external/xz-embedded" remote="aosp" />
+	<project path="external/puffin" name="LineageOS/android_external_puffin" />
+
+	<!-- patched update_engine to fix compile error thx calebccff -->
+	<remove-project path="system/update_engine" name="LineageOS/android_system_update_engine" />
+	<project path="system/update_engine" name="sailfish-oneplus6/android_system_update_engine" />
+
+		<!-- rpm stuff -->
+	<project path="rpm/" name="zinstack625/droid-hal-river" revision="master" />
+	<project path="hybris/droid-configs" name="zinstack625/droid-config-river" revision="master" />
+	<project path="hybris/droid-hal-version-river" name="zinstack625/droid-hal-version-river" revision="master" />
+</manifest>
