@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- device tree with erfans kernel, thx -->
+	<!-- device tree. kernel patches are the work of erfanoabdi, he's awesome -->
 	<project path="device/motorola/river"
 		name="LineageOS/android_device_motorola_river"
 		revision="lineage-16.0" />
