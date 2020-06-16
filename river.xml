@@ -5,10 +5,10 @@
 		name="LineageOS/android_device_motorola_river"
 		revision="lineage-16.0" />
 	<project path="device/motorola/sdm632-common"
-		name="zinstack625/android_device_motorola_sdm632-common"
+		name="sailfish-motog7/android_device_motorola_sdm632-common"
 		revision="hybris-16.0" />
 	<project path="kernel/motorola/sdm632"
-		name="zinstack625/android_kernel_motorola_sdm632"
+		name="sailfish-motog7/android_kernel_motorola_sdm632"
 		revision="hybris-16.0" />
 	<project path="vendor/motorola"
 		name="TheMuppets/proprietary_vendor_motorola"
@@ -26,7 +26,7 @@
 	<project path="system/update_engine" name="sailfish-oneplus6/android_system_update_engine" />
 
 		<!-- rpm stuff -->
-	<project path="rpm/" name="zinstack625/droid-hal-river" revision="master" />
-	<project path="hybris/droid-configs" name="zinstack625/droid-config-river" revision="master" />
-	<project path="hybris/droid-hal-version-river" name="zinstack625/droid-hal-version-river" revision="master" />
+	<project path="rpm/" name="sailfish-motog7/droid-hal-river" revision="master" />
+	<project path="hybris/droid-configs" name="sailfish-motog7/droid-config-river" revision="master" />
+	<project path="hybris/droid-hal-version-river" name="sailfish-motog7/droid-hal-version-river" revision="master" />
 </manifest>
