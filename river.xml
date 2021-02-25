@@ -3,27 +3,16 @@
 	<!-- device tree. kernel patches are the work of erfanoabdi, he's awesome -->
 	<project path="device/motorola/river"
 		name="LineageOS/android_device_motorola_river"
-		revision="lineage-16.0" />
+		revision="lineage-17.1" />
 	<project path="device/motorola/sdm632-common"
 		name="sailfish-motog7/android_device_motorola_sdm632-common"
-		revision="hybris-16.0" />
+		revision="hybris-17.1" />
 	<project path="kernel/motorola/sdm632"
 		name="sailfish-motog7/android_kernel_motorola_sdm632"
-		revision="hybris-16.0" />
+		revision="hybris-17.1" />
 	<project path="vendor/motorola"
 		name="TheMuppets/proprietary_vendor_motorola"
-		revision="lineage-16.0" />
-
-
-	<!-- some stuff hybris-16 hal won't compile without really idk -->
-	<project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
-	<project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
-	<project path="external/xz-embedded" name="platform/external/xz-embedded" remote="aosp" />
-	<project path="external/puffin" name="LineageOS/android_external_puffin" />
-
-	<!-- patched update_engine to fix compile error thx calebccff -->
-	<remove-project path="system/update_engine" name="LineageOS/android_system_update_engine" />
-	<project path="system/update_engine" name="sailfish-oneplus6/android_system_update_engine" />
+		revision="lineage-17.1" />
 
 		<!-- rpm stuff -->
 	<project path="rpm/" name="sailfish-motog7/droid-hal-river" revision="master" />
