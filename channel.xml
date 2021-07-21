@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- device tree. kernel patches are the work of erfanoabdi, he's awesome -->
+	<project path="device/motorola/river"
+		name="LineageOS/android_device_motorola_river"
+		revision="lineage-17.1" />
+	<project path="device/motorola/sdm632-common"
+		name="sailfish-motog7/android_device_motorola_sdm632-common"
+		revision="hybris-17.1" />
+	<project path="kernel/motorola/sdm632"
+		name="00p513-dev/android_kernel_motorola_sdm632"
+		revision="hybris-17.1" />
+	<project path="vendor/motorola"
+		name="TheMuppets/proprietary_vendor_motorola"
+		revision="lineage-17.1" />
+
+		<!-- rpm stuff -->
+	<project path="rpm/" name="00p513-dev/droid-hal-channel" revision="master" />
+	<project path="hybris/droid-configs" name="00p513-dev/droid-config-channel" revision="master" />
+	<project path="hybris/droid-hal-version-river" name="00p513-dev/droid-hal-version-channel" revision="master" />
+</manifest>
